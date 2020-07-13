@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Color Select</h1>
+    <br />
+    <div class="flex-row">
+      <table>
+        <tr>
+          <td id="red">(R) Red</td>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="imputRed" />
+          </td>
+          <td>
+            <input
+              type="number"
+              min="0"
+              max="255"
+              id="valueRangeRed"
+              value="0"
+              disabled
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="green">(G) Green</td>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="imputGreen" />
+          </td>
+          <td>
+            <input
+              type="number"
+              min="0"
+              max="255"
+              id="valueRangeGreen"
+              value="0"
+              disabled
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="blue">(B) Blue</td>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="imputBlue" />
+          </td>
+          <td>
+            <input
+              type="number"
+              min="0"
+              max="255"
+              id="valueRangeBlue"
+              value="0"
+              disabled
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><div class="square" id="squareColor"></div></td>
+        </tr>
+        <tr>
+          <td>RGB scale:</td>
+          <td>
+            <span id="rgbColor">teste</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

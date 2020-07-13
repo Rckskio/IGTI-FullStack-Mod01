@@ -1,0 +1,66 @@
+body {
+  font-family: consolas;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#red {
+  color: red;
+  width: 150px;
+}
+
+#green {
+  color: green;
+  width: 150px;
+}
+
+#blue {
+  color: blue;
+  width: 150px;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+}
+
+.combinationValue {
+  width: 70%;
+}
+
+#imputRed {
+  min-width: 200px;
+}
+
+#imputGreen {
+  min-width: 200px;
+}
+#imputBlue {
+  min-width: 200px;
+}
+
+#valueRangeRed {
+  width: 50px;
+}
+#valueRangeGreen {
+  width: 50px;
+}
+#valueRangeBlue {
+  width: 50px;
+}

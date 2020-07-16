@@ -1,0 +1,12 @@
+#inputFrequency {
+  border: 1px solid lightgray;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.z-depth-5 {
+  display: inline;
+}

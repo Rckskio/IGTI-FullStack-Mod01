@@ -1,0 +1,25 @@
+#firstLine {
+  font-weight: bold;
+}
+
+#secondLine {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: darkgray;
+}
+.firstDiv {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 2em;
+  color: deeppink;
+  background-color: deepskyblue;
+}
+
+body {
+  padding-top: 2px;
+  padding-left: 5px;
+}
+/* This class is not applied to the file html directly, instead it is
+added to the file using JavaScript*/
